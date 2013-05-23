@@ -1,6 +1,12 @@
 auto: true
-#url: /u/2997191/blog
+# Url to append to all links.
 url: 
+permalink: /:year/:title
+
+# Url for dropbox.
+# Dropbox allows us to serve html content using the public folder.
+# A dropbox url will have the following format:
+# https://dl.dropboxusercontent.com/u/USER_ID/
 
 # Custom information
 title: jekyll
